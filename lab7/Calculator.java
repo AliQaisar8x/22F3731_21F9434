@@ -1,3 +1,5 @@
+package lab7;
+
 public class Calculator {
 
     // Add two numbers
@@ -15,12 +17,6 @@ public class Calculator {
         return a * b;
     }
 
-    // Divide two numbers
-    public double divide(double a, double b) {
-        if (b == 0) {
-            System.out.println("Cannot divide by zero!");
-            return 0;
-        }
         return a / b;
     }
 }
